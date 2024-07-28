@@ -1,0 +1,23 @@
+{
+	"name" : "henriquejunqueira/phpmvcpratico",
+	"description" : "Curso de MVC com Composer no PHP ministrado pelo Fábio Souza",
+	"license" : "proprietary",
+	"authors" : [{
+			"name" : "henriquejunqueira",
+			"email" : "henriquejunqueira15@gmail.com"
+		}
+	],
+	"minimum-stability" : "stable",
+	"require" : {
+		"php" : ">=7.2"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"app\\" : "app/",
+			"core\\" : "core/"
+		},
+		"files" : [
+			"config/config.php"
+		]
+	}
+}
